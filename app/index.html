@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html ng-app lang="en">
+<html ng-app="main" lang="en">
 	<head>
 		<title>A simple HTML document</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body ng-init="name = 'Jean-Louis'">
-		<h1>Hello {{name}}</h1>
+		<ors-header></ors-header>
+		<ors-body></ors-body>
+		<ors-footer></ors-footer>		
+		<script src="../node_modules/jquery/dist/jquery.js"></script>
 		<script src="../node_modules/angular/angular.js"></script>
+		<script src="main.js"></script>
+		<script src="ors-layout/ors-layout.js"></script>
 	</body>
 </html>
