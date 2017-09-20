@@ -3,6 +3,8 @@
 
     var app = angular.module('ors-route', ['ui.router']);
 
+    console.log('test coucou');
+
     app.config(function ($locationProvider, $stateProvider, $urlRouterProvider) {
         'ngInject';
         $locationProvider
